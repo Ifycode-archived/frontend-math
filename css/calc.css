@@ -5,17 +5,13 @@
     border: 0;
 }
 
-body {
-    margin: 0;
-}
-
 * {
     --headerFontSize: 1.5rem;
     --headerPadding: 1rem;
     --footerFontSize: 1.5rem;
     --footerPadding: 1rem;
 }
-/*Initial style*/
+
 header {
     background: lightgreen;
     font-size: var(--headerFontSize);
