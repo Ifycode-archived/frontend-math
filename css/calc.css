@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    --headerFontSize: 1.5rem;
+    --headerPadding: 1rem;
+    --footerFontSize: 1.5rem;
+    --footerPadding: 1rem;
+}
+/*Initial style*/
+header {
+    background: lightgreen;
+    font-size: var(--headerFontSize);
+    padding: var(--headerPadding);
+    text-align: center;
+}
+
+main {
+    background: lightblue;
+    font-size: 1.5rem;
+    text-align: center;
+    height: calc(100vh - var(--headerFontSize) - (2 * var(--headerPadding)) - var(--footerFontSize) - (2 * var(--headerPadding)));
+}
+
+footer {
+    background: lightpink;
+    font-size: var(--footerFontSize);
+    padding: var(--footerPadding);
+    text-align: center;
+}
